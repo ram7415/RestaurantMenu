@@ -15,6 +15,7 @@ const Bites = () => {
           />
         </div>
       ))}
+      <h1 className="text-white">Ram😑</h1>
     </div>
   );
 };
