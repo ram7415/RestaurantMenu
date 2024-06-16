@@ -32,58 +32,102 @@ const Header = () => {
       <nav className="bg-gray-600 text-white p-2 overflow-auto">
         <ul className="flex space-x-4">
           <li className="rounded">
-            <NavLink to="/Chai" className="text-white hover:text-gray-300">
+            <NavLink
+              to="/Chai"
+              className={({ isActive }) =>
+                isActive ? "text-red-500" : "text-white hover:text-gray-300"
+              }
+            >
               Chai
             </NavLink>
           </li>
           <li>
-            <NavLink to="/bites" className="text-white hover:text-gray-300">
+            <NavLink
+              to="/bites"
+              className={({ isActive }) =>
+                isActive ? "text-red-500" : "text-white hover:text-gray-300"
+              }
+            >
               Bites
             </NavLink>
           </li>
           <li>
-            <NavLink to="/Pizza" className="text-white hover:text-gray-300">
+            <NavLink
+              to="/Pizza"
+              className={({ isActive }) =>
+                isActive ? "text-red-500" : "text-white hover:text-gray-300"
+              }
+            >
               Pizza
             </NavLink>
           </li>
           <li>
-            <NavLink to="/Burger" className="text-white hover:text-gray-300">
+            <NavLink
+              to="/Burger"
+              className={({ isActive }) =>
+                isActive ? "text-red-500" : "text-white hover:text-gray-300"
+              }
+            >
               Burger
             </NavLink>
           </li>
           <li>
             <NavLink
               to="/ColdCoffee"
-              className="text-white hover:text-gray-300"
+              className={({ isActive }) =>
+                isActive ? "text-red-500" : "text-white hover:text-gray-300"
+              }
             >
               ColdCoffee
             </NavLink>
           </li>
           <li>
-            <NavLink to="/HotCoffee" className="text-white hover:text-gray-300">
+            <NavLink
+              to="/HotCoffee"
+              className={({ isActive }) =>
+                isActive ? "text-red-500" : "text-white hover:text-gray-300"
+              }
+            >
               HotCoffee
             </NavLink>
           </li>
           <li>
             <NavLink
               to="/Milkshakes"
-              className="text-white hover:text-gray-300"
+              className={({ isActive }) =>
+                isActive ? "text-red-500" : "text-white hover:text-gray-300"
+              }
             >
               Milkshakes
             </NavLink>
           </li>
           <li>
-            <NavLink to="/Maggie" className="text-white hover:text-gray-300">
+            <NavLink
+              to="/Maggie"
+              className={({ isActive }) =>
+                isActive ? "text-red-500" : "text-white hover:text-gray-300"
+              }
+            >
               Maggie
             </NavLink>
           </li>
           <li>
-            <NavLink to="/SandWhich" className="text-white hover:text-gray-300">
-              SandWhich
+            <NavLink
+              to="/SandWich"
+              className={({ isActive }) =>
+                isActive ? "text-red-500" : "text-white hover:text-gray-300"
+              }
+            >
+              SandWich
             </NavLink>
           </li>
           <li>
-            <NavLink to="/Pasta" className="text-white hover:text-gray-300">
+            <NavLink
+              to="/Pasta"
+              className={({ isActive }) =>
+                isActive ? "text-red-500" : "text-white hover:text-gray-300"
+              }
+            >
               Pasta
             </NavLink>
           </li>

@@ -17,13 +17,13 @@ export const hotCoffee = [
     name: "Choclate Coffee",
     price: "25",
     img: "https://i2.wp.com/nypost.com/wp-content/uploads/sites/2/2017/03/170321-chocolate-coffee-feature.jpg?quality=90&strip=all&ssl=1",
-    description: "first",
+    description: "",
   },
 
   {
     name: "Strong Choco Coffee",
     price: "30",
     img: "https://th.bing.com/th/id/OIP.pw-9qLgEEg2NLTK-pi3ErQHaFS?rs=1&pid=ImgDetMain",
-    description: "chai",
+    description: "",
   },
 ];

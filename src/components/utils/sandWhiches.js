@@ -1,4 +1,4 @@
-export const sandWhich = [
+export const sandWich = [
   {
     name: "Corn Masala",
     price: 55,

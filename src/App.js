@@ -8,7 +8,7 @@ import Burger from "./components/Burger";
 import MilkShakes from "./components/MilkShakes";
 import Pizza from "./components/Pizza";
 import Maggie from "./components/Maggie";
-import SandWhich from "./components/SandWhich";
+import SandWich from "./components/SandWhich";
 import Bites from "./components/Bites"; // Correct import
 import Pasta from "./components/Pasta";
 import HotCoffee from "./components/HotCoffee";
@@ -26,7 +26,7 @@ function App() {
           <Route path="/MilkShakes" element={<MilkShakes />} />
           <Route path="/Pizza" element={<Pizza />} />
           <Route path="/Maggie" element={<Maggie />} />
-          <Route path="/SandWhich" element={<SandWhich />} />
+          <Route path="/SandWich" element={<SandWich />} />
           <Route path="/Bites" element={<Bites />} />
           <Route path="/Pasta" element={<Pasta />} />
           <Route path="/HotCoffee" element={<HotCoffee />} />

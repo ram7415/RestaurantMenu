@@ -1,11 +1,11 @@
 import React from "react";
-import { sandWhich } from "./utils/sandWhiches";
+import { sandWich } from "./utils/sandWhiches";
 import { Item } from "./Item";
 
-const SandWhich = () => {
+const SandWich = () => {
   return (
     <div>
-      {sandWhich.map((item) => (
+      {sandWich.map((item) => (
         <div>
           <Item
             name={item.name}
@@ -19,4 +19,4 @@ const SandWhich = () => {
   );
 };
 
-export default SandWhich;
+export default SandWich;

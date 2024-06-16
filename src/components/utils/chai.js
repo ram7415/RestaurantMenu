@@ -3,21 +3,21 @@ export const chai = [
     name: "Regular Cut",
     price: "08",
     img: "https://www.shutterstock.com/image-photo/fresh-milk-tea-indian-kadak-600nw-1854621256.jpg",
-    description: "first",
+    description: "",
   },
 
   {
     name: "Regular Full",
     price: "15",
     img: "https://th.bing.com/th/id/R.ea3ab47eace4834f65d9a1318ec3efbf?rik=vUiF15grpf4v8Q&riu=http%3a%2f%2fwww.fussfreecooking.com%2fwp-content%2fuploads%2f2012%2f10%2fa13.jpg&ehk=d4Bww%2fSR5hIOpIETxjeoIv%2bpt5NxEKkryloB2eo8JYw%3d&risl=&pid=ImgRaw&r=0",
-    description: "first",
+    description: "",
   },
 
   {
     name: "Adrak Tea",
     price: "15",
     img: "https://masalaandchai.com/wp-content/uploads/2022/04/Ginger-Tea.jpg",
-    description: "first",
+    description: "",
   },
 
   {
